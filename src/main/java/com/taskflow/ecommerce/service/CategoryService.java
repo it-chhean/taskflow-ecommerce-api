@@ -5,17 +5,13 @@ import org.springframework.data.domain.Pageable;
 
 import com.taskflow.ecommerce.dto.request.CategoryRequest;
 import com.taskflow.ecommerce.dto.response.CategoryResponse;
-import com.taskflow.ecommerce.entities.Category;
 
 public interface CategoryService {
 
     CategoryResponse createCategory(CategoryRequest categoryRequest);
-
     CategoryResponse getCategoryById(Integer id);
-
     Page<CategoryResponse> getAll(Pageable pageable);
-
     CategoryResponse updateCategory(Integer id, CategoryRequest categoryRequest);
-
     void delete(Integer id);
+
 }
