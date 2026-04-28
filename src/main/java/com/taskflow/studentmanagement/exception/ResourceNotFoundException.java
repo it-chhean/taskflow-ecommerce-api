@@ -2,13 +2,7 @@ package com.taskflow.studentmanagement.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
 
-
-    public ResourceNotFoundException(String message) {
-        super(message);
+    public ResourceNotFoundException(String message, int id) {
+        super(message + " not found with id: " + id);
     }
-
-    public static ResourceNotFoundException department(Object id) {
-		return new ResourceNotFoundException("Score not found with id: " + id);
-	}
-    
 }
