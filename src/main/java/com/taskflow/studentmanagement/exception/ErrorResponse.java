@@ -1,4 +1,4 @@
-package com.taskflow.ecommerce.exception;
+package com.taskflow.studentmanagement.exception;
 
 import java.time.LocalDateTime;
 import java.util.List;

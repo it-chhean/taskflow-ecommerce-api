@@ -1,4 +1,4 @@
-package com.taskflow.ecommerce.exception;
+package com.taskflow.studentmanagement.exception;
 
 import java.nio.file.AccessDeniedException;
 import java.time.LocalDateTime;
