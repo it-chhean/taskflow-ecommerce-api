@@ -1,10 +1,10 @@
-package com.taskflow.ecommerce;
+package com.taskflow.studentmanagement;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TaskflowEcommerceApiApplicationTests {
+class TaskflowApplicationTests {
 
 	@Test
 	void contextLoads() {

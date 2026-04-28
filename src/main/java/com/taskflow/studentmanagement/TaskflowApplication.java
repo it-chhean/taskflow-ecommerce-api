@@ -1,13 +1,13 @@
-package com.taskflow.ecommerce;
+package com.taskflow.studentmanagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TaskflowEcommerceApiApplication {
+public class TaskflowApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TaskflowEcommerceApiApplication.class, args);
+		SpringApplication.run(TaskflowApplication.class, args);
 	}
 
 }
